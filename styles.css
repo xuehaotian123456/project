@@ -1,0 +1,115 @@
+body {
+  background-color: #e4f9f5;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #30e3ca;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header input {
+  border: 1px solid #40514e;
+  width: 160px;
+  height: 30px;
+  border-radius: 4px;
+}
+.head {
+  display: inline-block;
+}
+
+.nav-header {
+  text-align: center;
+}
+.nav-header span {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  border: 1px solid #11999e;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+hr {
+  margin-top: 20px;
+}
+
+aside {
+  display: inline-block;
+  width: 60px;
+}
+aside div {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #11999e;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+#tec:hover > .card {
+  width: 140px;
+  opacity: 1;
+}
+.card {
+  width: 140px;
+  height: 240px;
+  background-color: 30e3CA;
+  position: absolute;
+  left: 128px;
+  top: 402px;
+  width: 0;
+  opacity: 0;
+  transition: all 1s;
+}
+.card div {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #11999e;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+main {
+  width: 1200px;
+  height: 500px;
+  background-color: #e4f9f5;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+main .item {
+  width: 310px;
+  height: 130px;
+  background-color: #30e3ca;
+  text-align: center;
+  line-height: 130px;
+}
+.sign-in {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #11999e;
+  text-align: center;
+  line-height: 50px;
+}
+
+.my-center {
+  display: inline-block;
+  width: 80px;
+  height: 60px;
+  background-color: #11999e;
+  text-align: center;
+  line-height: 60px;
+}
